@@ -1,5 +1,4 @@
 import time
-from email import message
 from telegram import Location, ParseMode, Update, ChatAction
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext, CommandHandler, \
     PrefixHandler, ConversationHandler

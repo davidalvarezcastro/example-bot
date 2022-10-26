@@ -1,10 +1,10 @@
 import time
-from telegram import Location, ParseMode, Update, ChatAction
-from telegram.ext import Updater, MessageHandler, Filters, CallbackContext, CommandHandler, \
-    PrefixHandler, ConversationHandler
+
+from telegram import ChatAction, Location, ParseMode, Update
+from telegram.ext import (CallbackContext, CommandHandler, ConversationHandler,
+                          Filters, MessageHandler, PrefixHandler, Updater)
 
 from config import Config
-
 
 NAME, EMAIL = range(2)
 
